@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>惠品折</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/swiper-3.4.2.min.js"></script>
+		<script src="js/angular-min.js"></script>
+		<script src="js/angular-css.min.js"></script>
+		<script src="js/angular-route.js"></script>
+		<script src="app.js"></script>
+		<script src="modules/home/home.js"></script>
+		<script src="modules/search/search.js"></script>
+		<script src="modules/shopcar/shopcar.js"></script>
+		<script src="modules/mine/mine.js"></script>
+	</head>
+	<body ng-app="yjp">
+		<div id="headerBox">
+			<div class="head-nav">
+				<a href="#/home"><img src="img/logo_t.png" alt="" /></a>
+				<div class="right-nav">
+					<a href="javascript:void(0)"></a>
+					<a href="#/mine"></a>
+					<a href="#/shopcar"></a>
+				</div>
+			</div>
+			<div class="search-box">
+				<div class="search-t">
+					<div class="input-box">
+						<a href="#/search">
+							<input type="text" placeholder="请输入搜索内容"/>
+						</a>	
+					</div>
+					<div>
+						取消
+					</div>
+				</div>
+				<div class="category-list"></div>
+			</div>
+			<div class="shade"></div>
+		</div>
+		<div id="mainBox" ng-view></div>
+	</body>
+</html>

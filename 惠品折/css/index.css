@@ -1,0 +1,21 @@
+body{width: 100%;}
+
+#headerBox,.head-nav{width: 100%;height: 56px;font-size: 14px;position: relative;}
+.head-nav{background: #31313b;}
+.head-nav>a{margin-left: 15px;}
+.head-nav>a>img{width: 65px;padding-top: 20px;}
+.right-nav{float: right;}
+.right-nav>a{display: inline-block;width: 46px;height: 56px;margin-right: 10px;background: url(../img/search.jpg) no-repeat 8px 17px;}
+.right-nav>a:nth-child(2){background-image: url(../img/personal.jpg);}
+.right-nav>a:nth-child(3){background-image: url(../img/shopcar.jpg);}
+/*搜索框*/
+.search-box{background: white;position: absolute;top: 100%;z-index: 10;width: 100%;}
+.search-t{width: 100%;height: 48px;}
+.search-t>div{float: left;height: 48px;line-height: 48px;width: 50px;text-align: center;}
+.input-box{padding: 12px 0 0 12px;}
+.input-box>a{display: block;width: 100%;border-radius: 15px;background: #ededed;height: 24px;padding-left: 40px;line-height: 24px;padding-right: 5px;}
+.input-box>a>input{width: 100%;border: none;background: #ededed;}
+/*搜索栏列表*/
+
+
+.shade{background: rgba(0,0,0,.6);position: fixed;top: 56px;width: 100%;height: 100%;z-index: 5;}
